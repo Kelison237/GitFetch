@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: Ubuntu;
+	text-align: center;
+	color: #95978C;
+	/*width: 70%;*/
+	padding: 12px;
+}
+.subtitle {
+	color: #FBA18C;
+	padding: 22px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+body {
+	background-color: #303841;
+}
+
+input[type=text] {
+	text-decoration: none;
+	padding: 12px;
+	font-family: Ubuntu;
+	border: none;
+	background-color: #FBA18C;
+}
+.main_input-contianer {
+	margin-left: 40%;
+	
+}
+.main_input-container a{
+	padding: 10px;
+	font-family: Ubuntu;
+	text-decoration: none;
+	background-color: #00000C;
+	color: white;
+}
+
+img{
+
+	border-radius: 50%;
+	border: 2px solid white;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.username, .userlogin, .repos, .url {
+	padding: 12px;
+	font-family: Ubuntu;
+}
+
+.url a{
+	text-decoration: none;
+	color: wheat;
+
+}
+span {
+	
+}
+
+span a {
+	text-decoration: none;
+	color: #00000C;
+	padding-left: 12px;
+	background-color: #FBA18C;
+	padding: 10px;
+	
+	text-decoration: none;
+	font-family: Ubuntu;
+
+}
+b {
+	color: wheat;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+span a:active {
+	padding: 8px;
+}
+
+.dibBox {
+	margin: 12px 0px 0px 40%;
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+
+@media (max-width:  600px) {
+	.dibBox{
+		display: block;
+	}
+	.main_input-contianer{
+		display: block;
+	}
+}
