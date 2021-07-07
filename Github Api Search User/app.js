@@ -52,21 +52,6 @@ e.preventDefault();
         uRLs.innerHTML = `<b>URL:</b> <a href="${res.data.html_url}"> ${res.data.html_url}</a><br><hr>`;
         anotherDiv.appendChild(uRLs);
    
-        // const infoDiv = document.createElement("div");
-        // infoDiv.classList.add("infoDiv");
-        // infoDiv.innerText = "kelison";
-        // const img = document.createElement('div');
-        // img.innerHTML = `<img src="${res.data.avatar_url}"/>`;
-        // img.appendChild(infoDiv);
-        // const PersonName = document.createElement('p');
-        // PersonName.innerHTML = `<b>Name:</b> ${res.data.login}`
-
-    //     let doc =  document.createElement('div');
-    //     doc.innerHTML = `<img src=${res.data.avatar_url}/>`
-    //  let element= nameContainer.innerHTML = `Name : <span class="userProfile">${res.data.name}</span>`;
-    //      userName.innerHTML = ` Username: ${res.data.login}`;
-    //      reposContainer.innerHTML = `Repo: ${res.data.public_repos}`;
-    //   urlConatainer.innerHTML = `URL: ${res.data.html_url}`; 
     })
 }
 
